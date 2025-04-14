@@ -2,23 +2,23 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://huthuthiddeli.github.io/TrueFill2Chall/',
+  baseHref: 'https://huthuthiddeli.github.io/True-Fill2-Chall/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/TrueFill2Chall"
+    "route": "/True-Fill2-Chall"
   },
   {
     "renderMode": 2,
-    "route": "/TrueFill2Chall/**"
+    "route": "/True-Fill2-Chall/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 5427, hash: 'a5b34eb341e6b086d44c839064cac1c903f50d946b0232c541ee25cc04b5777e', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1053, hash: 'b585be333de3a4e81412e7dd99daa59376da5c2ba48e72958fb60d3944c78c56', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 6944, hash: '6682d0cf32ce95185d7eb3f49057d3fa350359cf529ee3b78a18ccfa29fb1698', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 5429, hash: '8a57ba65d72fd1914993f759a6607f52bb37ebd70215f85e35d5731ae7d0931a', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1055, hash: '6895862a97d45eeee4ea66afed549efabeaec946665041c2ef44ac4e9635ebf6', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 6946, hash: '69979279308f20aa2a86a6c35ee38f6cef622bff6ea83c22d1083019e44119af', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-22WW5YHL.css': {size: 11790, hash: 'fhEkokQneck', text: () => import('./assets-chunks/styles-22WW5YHL_css.mjs').then(m => m.default)}
   },
 };

@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://huthuthiddeli.github.io/True-Fill2-Chall',
+  basePath: '/TrueFill2Chall',
   supportedLocales: {
   "en-US": ""
 },
